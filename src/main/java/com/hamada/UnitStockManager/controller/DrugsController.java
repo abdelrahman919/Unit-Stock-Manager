@@ -12,7 +12,9 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequiredArgsConstructor
@@ -42,15 +44,6 @@ public class DrugsController {
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    @GetMapping("/file")
-    public void saveToFile() {
-        List<Drug> allDrugs = drugService.getAllDrugs();
-        try {
-            Files.writeString(path, allDrugs.toString(), StandardOpenOption.WRITE);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
 
 
 

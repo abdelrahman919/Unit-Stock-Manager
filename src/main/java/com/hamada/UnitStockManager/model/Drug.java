@@ -11,6 +11,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.IOException;
+import java.io.Serializable;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -20,7 +21,7 @@ import java.nio.file.StandardOpenOption;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class Drug {
+public class Drug implements Serializable {
 
     @Id
     private String name;

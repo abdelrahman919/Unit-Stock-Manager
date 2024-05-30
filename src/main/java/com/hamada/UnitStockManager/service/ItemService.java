@@ -27,8 +27,8 @@ public class ItemService {
         return itemRepo.findByMonthAndYear(month, year);
     }
 
-    public void saveItem(List<Item> items) {
-        itemRepo.saveAll(items);
+    public void saveItem(Item item) {
+        itemRepo.save(item);
     }
 
 //    public Item convertMapToItem(Map<String, Integer> map) {

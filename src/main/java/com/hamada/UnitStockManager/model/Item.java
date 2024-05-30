@@ -7,6 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Entity
 @NoArgsConstructor
@@ -17,9 +18,10 @@ public class Item {
     @GeneratedValue(generator = "itemIdGen", strategy = GenerationType.IDENTITY)
     @SequenceGenerator(allocationSize = 1, name = "itemIdGen")
     private Long id;
-    @ManyToOne
-    private Drug drug;
-    private int count;
+
+    @OneToMany(cascade = CascadeType.ALL)
+    private List<DrugCounter> drugCounterList;
+
     private LocalDate saveDate;
 
 

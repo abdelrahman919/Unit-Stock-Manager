@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+    box-sizing: border-box;
+}
+
+body{
+    background:  #262a2f;
+    color: #333;
+}
+
+.search-box{
+    width: 600px;
+    background: #fff;
+    margin: 200px auto 0;
+    border-radius: 5px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+input{
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+#search-button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.search-icon{
+    width: 28px;
+    color: #555;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: #555;
+}
+
+.result-box ul{
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+}
+
+.result-box ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.result-box ul li:hover{
+    background: #e9f3ff;
+}
+
+.result-box{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+.result-box::-webkit-scrollbar{
+    display: none;
+}
+.selected-box {
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.selected-box ul {
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+    background: #adabca; /* Match background color of search-box */
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: nowrap;
+    font-weight: bold;
+    font-family: "Arial", sans-serif; /* Change to your preferred header font */
+    font-size: 18px; /* Adjust font size as needed */
+    color: #000; /* Adjust font color as needed */
+    list-style: none;
+
+}
+
+.selected-box ul li {
+
+    font-family: "Arial", sans-serif; /* Change to your preferred header font */
+    font-size: 18px; /* Adjust font size as needed */
+    color: #000; /* Adjust font color as needed */
+    list-style: none;
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.selected-box ul li:hover {
+    background: #e9f3ff;
+}
+
+/* Additional styles for submit button */
+#submit-button {
+    background-color: #ff6600; /* Example color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+#submit-button:hover {
+    background-color: #ff8533; /* Example hover color */
+}
+
+/* Style for the date form */
+.date-form {
+    width: 450px;
+    background: #7c7097;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.date-form .row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.date-form label {
+    flex: 1;
+    color: white;
+    font-size: 18px;
+}
+
+.date-form input[type="date"] {
+    flex: 2;
+    height: 50px;
+    background: #ff8533;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    color: #333;
+    padding: 0 10px;
+}
+
+.date-form input[type="date"]::-webkit-inner-spin-button,
+/* .date-form input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+} */
+
+/* .date-form input[type="submit"] {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+} */
+
+.date-form input[type="submit"]:hover {
+    background-color: #ff8533;
+}
+

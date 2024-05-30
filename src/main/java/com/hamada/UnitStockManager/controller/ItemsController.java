@@ -1,5 +1,6 @@
 package com.hamada.UnitStockManager.controller;
 
+import com.hamada.UnitStockManager.model.Item;
 import com.hamada.UnitStockManager.service.ItemService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -18,9 +19,11 @@ public class ItemsController {
     private final ItemService itemService;
 
 
-//    @PostMapping
-//    public ResponseEntity<?> saveItem(@RequestBody Map<String, Integer>) {
-//        itemService.saveItem();
-//    }
+    @PostMapping
+    public ResponseEntity<?> saveItem(@RequestBody Item item) {
+        System.out.println(item);
+        itemService.saveItem(item);
+        return ResponseEntity.ok().build();
+    }
 
 }
