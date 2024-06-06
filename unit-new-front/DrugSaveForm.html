@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="SaveDrugs.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Drug</title>
+</head>
+<body>
+<!-- <h1>Add New Drug</h1> -->
+<form id="drugForm" method="post" action="/drugs">
+    <label for="name">Drug Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="type">Drug Type:</label><br>
+    <select id="type" name="type" required>
+        <option value="TAB_CAP">TAB_CAP</option>
+        <option value="SYR_SUSP">SYR_SUSP</option>
+        <option value="AMP_VIAL">AMP_VIAL</option>
+        <option value="GENERAL">GENERAL</option>
+    </select><br><br>
+
+    <button type="submit">Save Drug</button>
+</form>
+
+<script src="SaveDrug.js"> 
+
+</script>
+</body>
+</html>

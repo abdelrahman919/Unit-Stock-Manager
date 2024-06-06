@@ -19,7 +19,7 @@ public class Item {
     @SequenceGenerator(allocationSize = 1, name = "itemIdGen")
     private Long id;
 
-    @OneToMany(cascade = CascadeType.ALL)
+    @ManyToMany(cascade = CascadeType.ALL)
     private List<DrugCounter> drugCounterList;
 
     private LocalDate saveDate;

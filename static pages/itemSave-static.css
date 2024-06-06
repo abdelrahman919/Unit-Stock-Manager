@@ -137,7 +137,6 @@ input {
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
-    margin: 10px;
     cursor: pointer;
     margin-top: 20px; /* Adjust margin as needed */
 }
@@ -183,21 +182,7 @@ input {
 }
 
 .date-form input[type="date"]::-webkit-inner-spin-button,
-/* .date-form input[type="date"]::-webkit-calendar-picker-indicator {
-    display: none;
-    -webkit-appearance: none;
-} */
 
-/* .date-form input[type="submit"] {
-    background-color: #ff6600;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-top: 20px;
-    font-size: 18px;
-} */
 
 .date-form input[type="submit"]:hover {
     background-color: #ff8533;

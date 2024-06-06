@@ -10,7 +10,7 @@ const itemsUrl = "http://localhost:8081/items"
 
 //Fetches drugList from back-end 
 
-async function fetchData(url) {
+/* async function fetchData(url) {
     try {
         const response = await fetch(url, {
             method: 'GET',
@@ -29,7 +29,7 @@ async function fetchData(url) {
         console.error('Error fetching data:', error.message);
         throw error;
     }
-}
+} */
 
 
 let drugList = []
@@ -37,7 +37,7 @@ let medCounter = {}
 let groupedItems = {}
 
 //Reads drugList from local file *STATIC*
-/* function getMedList(){ 
+function getMedList(){ 
     fetch('drugList.json')
     .then(response => {
         return response.json(); 
@@ -62,16 +62,11 @@ let groupedItems = {}
         console.error('There was a problem with the fetch operation:', error);
     });
 
-}  */
-
-async function getMedList(){
-    drugList = await fetchData(drugsUrl)
-}
-
+} 
 
 
 //Use if u want to read dataList from server *BACK-END*
-getMedList().then(()=>{
+/* getMedList().then(()=>{
     medCounter = drugList.map(drug =>({
         drug: {
             name: drug.name,
@@ -79,7 +74,7 @@ getMedList().then(()=>{
         },
         counter: 0
     }))
-})
+}) */
 
 
 //String formatting to display in Li elements
@@ -108,9 +103,9 @@ function findDrug(drugString){
 }
 
 
-// *STATIC*
-/* getMedList()
- */
+
+getMedList()
+
 
 
 //action listener for search bar 
@@ -311,7 +306,7 @@ resultBox.addEventListener("click", function(event){
 
 
 //Submit items to the server *BACK-END*
-async function submitItems(){
+/* async function submitItems(){
 
     let drugCounters = []
     document.querySelectorAll(".selected-item").forEach(li =>{
@@ -343,11 +338,10 @@ async function submitItems(){
     alert("Item save successfully")
     location.reload()
 
-}
-
-// *STATIC*
-/* function submitItems(){
-    alert("يستا بقولك البيج ستاتك بتسبمت ايه ")
 } */
+
+function submitItems(){
+    alert("يستا بقولك البيج ستاتك بتسبمت ايه ")
+}
 
 

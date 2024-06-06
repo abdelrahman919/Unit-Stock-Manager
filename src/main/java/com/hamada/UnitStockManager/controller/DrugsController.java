@@ -38,6 +38,15 @@ public class DrugsController {
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
+    @PostMapping("/all")
+    public ResponseEntity<?> saveAllDrugs(@RequestBody List<Drug> drugs) {
+        drugService.saveAllDrugs(drugs);
+        return ResponseEntity
+                .status(HttpStatus.CREATED)
+                .build();
+    }
+
+
     @DeleteMapping
     public ResponseEntity<?> deleteAllDrugs() {
         drugService.deleteAllDrugs();

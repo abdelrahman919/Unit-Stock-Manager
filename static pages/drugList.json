@@ -1,0 +1,346 @@
+[
+    {
+        "name": "allergyl tab ",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "alzental tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "ambroxol syp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "amocerebral tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "amrizol tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "antinal tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "aspocid tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "ator tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "augram 457 susp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "augram 642 susp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "avil amp",
+        "type": "AMP_VIAL"
+    },
+    {
+        "name": "b12 amp",
+        "type": "AMP_VIAL"
+    },
+    {
+        "name": "bronchoterol syp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "brufen syp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "brufen tab '",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "burn crm",
+        "type": "GENERAL"
+    },
+    {
+        "name": "capoten tab ",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "cefotax 0.5gm vial ",
+        "type": "AMP_VIAL"
+    },
+    {
+        "name": "cefotax 1gm vial ",
+        "type": "AMP_VIAL"
+    },
+    {
+        "name": "cetal drops",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "cipro tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "clamyl lotion",
+        "type": "GENERAL"
+    },
+    {
+        "name": "clavimox 1gm tab ",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "curisafe 250 susp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "danset amp",
+        "type": "AMP_VIAL"
+    },
+    {
+        "name": "declophen amp",
+        "type": "AMP_VIAL"
+    },
+    {
+        "name": "dexa amp",
+        "type": "AMP_VIAL"
+    },
+    {
+        "name": "dexaphen syp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "dexatobrin eye oint",
+        "type": "GENERAL"
+    },
+    {
+        "name": "dispercam gel",
+        "type": "GENERAL"
+    },
+    {
+        "name": "dycinon amp",
+        "type": "AMP_VIAL"
+    },
+    {
+        "name": "epinephrine amp",
+        "type": "AMP_VIAL"
+    },
+    {
+        "name": "esmatac tab ",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "famoten tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "farcotilium syp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "fawar amlah ",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "fawar gfaf",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "fernialr syp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "fernilar tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "flumox 0.5gm vial",
+        "type": "AMP_VIAL"
+    },
+    {
+        "name": "flumox 1gm tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "flumox 1gm vial ",
+        "type": "AMP_VIAL"
+    },
+    {
+        "name": "fluver syp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "gastreg susp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "gastreg tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "gatsreg susp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "gentaderm crm",
+        "type": "GENERAL"
+    },
+    {
+        "name": "glucose inf",
+        "type": "AMP_VIAL"
+    },
+    {
+        "name": "gynozol vag crm ",
+        "type": "GENERAL"
+    },
+    {
+        "name": "hexitol MW",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "iron syp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "lamifen crm",
+        "type": "GENERAL"
+    },
+    {
+        "name": "lasix amp",
+        "type": "AMP_VIAL"
+    },
+    {
+        "name": "laxative syp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "laxative tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "maxilase syp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "miconaz oral gel ",
+        "type": "GENERAL"
+    },
+    {
+        "name": "motilium tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "neurovit tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "newbezim tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "normal saline inf",
+        "type": "AMP_VIAL"
+    },
+    {
+        "name": "nostamin drops",
+        "type": "GENERAL"
+    },
+    {
+        "name": "optigent eye drops",
+        "type": "GENERAL"
+    },
+    {
+        "name": "oxymet drops",
+        "type": "GENERAL"
+    },
+    {
+        "name": "oxypol eye oint",
+        "type": "GENERAL"
+    },
+    {
+        "name": "paramol syp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "paramol tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "probamethone crm",
+        "type": "GENERAL"
+    },
+    {
+        "name": "ringer inf",
+        "type": "AMP_VIAL"
+    },
+    {
+        "name": "salbovent tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "sidoproct crm",
+        "type": "GENERAL"
+    },
+    {
+        "name": "spasmo amp",
+        "type": "AMP_VIAL"
+    },
+    {
+        "name": "tobrin eye oint",
+        "type": "GENERAL"
+    },
+    {
+        "name": "uricare crm",
+        "type": "GENERAL"
+    },
+    {
+        "name": "urinex tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "vental comp evohaler",
+        "type": "GENERAL"
+    },
+    {
+        "name": "vental evohaler",
+        "type": "GENERAL"
+    },
+    {
+        "name": "ventocough syp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "vidrop drops",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "viotic drops",
+        "type": "GENERAL"
+    },
+    {
+        "name": "viscera syp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "viscera tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "vitayami tab",
+        "type": "TAB_CAP"
+    },
+    {
+        "name": "zadema gel",
+        "type": "GENERAL"
+    },
+    {
+        "name": "zinc syp",
+        "type": "SYR_SUSP"
+    },
+    {
+        "name": "zithro tab",
+        "type": "TAB_CAP"
+    }
+]

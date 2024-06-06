@@ -1,12 +1,18 @@
-*{
+/* Add this container div to your HTML and CSS */
+/* .container {
+    position: relative;
+    width: 600px; 
+    margin: 200px auto 0; 
+} */
+* {
     margin: 0;
     padding: 0;
-    font-family: "poppins";
+    font-family: "Poppins";
     box-sizing: border-box;
 }
 
-body{
-    background:  #262a2f;
+body {
+    background: #262a2f;
     color: #333;
 }
 
@@ -35,28 +41,27 @@ input {
     color: #333;
 }
 
-#search-button{
+#search-button {
     background: transparent;
     border: 0;
     outline: 0;
 }
 
-.search-icon{
+.search-icon {
     width: 28px;
     color: #555;
     font-size: 22px;
     cursor: pointer;
 }
 
-::placeholder{
+::placeholder {
     color: #555;
 }
-
-
 
 /* Result box styling */
 .result-box {
     position: absolute;
+    top: 70px; /* Position it just below the input field */
     width: 100%; /* Ensure the result box takes the full width of the container */
     max-height: 300px;
     overflow-y: scroll;
@@ -129,23 +134,6 @@ input {
     background-color: #ff8533; /* Example hover color */
 }
 
-
-/* Additional styles for submit button */
-#submit-button {
-    background-color: #ff6600; /* Example color */
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin: 10px;
-    cursor: pointer;
-    margin-top: 20px; /* Adjust margin as needed */
-}
-
-#submit-button:hover {
-    background-color: #ff8533; /* Example hover color */
-}
-
 /* Style for the date form */
 .date-form {
     width: 450px;
@@ -155,7 +143,6 @@ input {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color-scheme: dark;
-    
 }
 
 .date-form .row {
@@ -203,10 +190,8 @@ input {
     background-color: #ff8533;
 }
 
-.item-buttons-div button{
-    /* width: 20px;
-    /* height: 20px; */
-    margin : 5px; 
+.item-buttons-div button {
+    margin: 5px;
     background-size: contain; /* Ensure the image fits within the button */
     border: none; /* Remove the border */
     padding: 0; /* Remove any padding */
@@ -215,12 +200,14 @@ input {
     cursor: pointer; /* Show pointer cursor on hover */
 }
 
-.increment-button{
+.increment-button {
     background: url('plus.png') no-repeat center center;
 }
-.decrement-button{
+
+.decrement-button {
     background: url('minus.png') no-repeat center center;
 }
-.delete-button{
+
+.delete-button {
     background: url('delete.png') no-repeat center center;
 }

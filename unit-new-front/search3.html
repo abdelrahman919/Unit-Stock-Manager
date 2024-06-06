@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Document2</title>
+</head>
+<body>
+    <form id="date-form" class="date-form">
+        <label for="date">Choose date:</label>
+        <input type="date" id="date" name="date">
+    </form>
+    <div class="search-box">
+        <div class="row">
+            <input type="text" id="input-box" autocomplete="off">
+            <button type="button" id="search-button">
+                <img src="search.png" alt="search-icon" class="search-icon">
+            </button>    
+        </div>
+        <div class="result-box">
+            <ul id="results-list">
+                <!-- Dynamic list items will be added here -->
+            </ul>
+        </div>
+    </div>
+    <div class="selected-box">
+        <ul id="selected-list">
+            <!-- Selected items will be added here -->
+        </ul>
+    </div>
+    <div class="submission">
+        <button id="submit-button" onclick="submitItems()">submit</button>
+    </div>
+    <script src="search2.js"></script>
+</body>
+</html>

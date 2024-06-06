@@ -27,6 +27,10 @@ public class DrugService {
         drugRepo.save(drug);
     }
 
+    public void saveAllDrugs(List<Drug> drugs) {
+        drugRepo.saveAll(drugs);
+    }
+
     public void deleteDrug(Drug drug) {
         drugRepo.delete(drug);
     }
